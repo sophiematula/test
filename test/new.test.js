@@ -38,7 +38,7 @@ describe('Demo App - Ultrafast Grid - Puppeteer', function () {
         const configuration = new Configuration();
 
         // create a new batch info instance and set it to the configuration
-        configuration.setBatch(new BatchInfo('Ultrafast Batch - Puppeteer'))
+        configuration.setBatch(new BatchInfo('New Test'))
 
         // Add browsers with different viewports
         configuration.addBrowser(800, 600, BrowserType.CHROME);
