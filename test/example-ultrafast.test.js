@@ -62,7 +62,7 @@ describe('Demo App - Ultrafast Grid - Puppeteer', function () {
         // ⭐️ Note to see visual bugs, run the test using the above URL for the 1st run.
         // but then change the above URL to https://demo.applitools.com/index_v2.html
         // (for the 2nd run)
-        await page.goto('https://demo.applitools.com');
+        await page.goto('https://demo.applitools.com/index_v2.html');
 
         // Call Open on eyes to initialize a test session
         await eyes.open(page, 'Demo App - Puppeteer - Ultrafast Grid', 'Smoke Test', new RectangleSize(800, 600));
